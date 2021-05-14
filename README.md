@@ -17,7 +17,7 @@ For training the ERGO model, run:
 ```commandline
 python ERGO.py train model_type dataset sampling device 
 ```
-When: `model_type` is `lstm` for the lstm based model.
+When: `model_type` is `lstm` for the Bilstm-Attention-CNN based model.
 `dataset` is `mcpas` for McPAS-TCR dataset, or `vdjdb` for VDJdb dataset.
 `sampling` can be `specific` for distinguishing different binders, `naive` for separating non-binders and binders,
 or `memory` for distinguishing binders and memory TCRs.
