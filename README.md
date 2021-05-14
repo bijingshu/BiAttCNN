@@ -8,7 +8,7 @@ scikit-learn 0.19.2
 ```
 - The code has been tested on Linux 3.10.0-957.27.2.el7.x86_64.
 - The code runs faster with GPU usage, but it should work also on CPU. It was developed on GPU
-(Nvidia Tesla K40m with CUDA 10.0).
+(Nvidia Tesla V100 with CUDA 10.0).
 
 For initialization, download this repository or clone using
 `git clone https://github.com/IdoSpringer/ERGO`. It should take a few seconds.
