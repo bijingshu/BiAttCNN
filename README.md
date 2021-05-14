@@ -64,6 +64,4 @@ Notice that in the autoencoder model, TCR max length is 28, so longer sequences 
 Prediction should be take a few seconds.
 
 ## References
-1. Springer, I., Besser, H., Tickotsky-Moskovitz, N., Dvorkin, S. & Louzoun, Y.
-Prediction of specific TCR-peptide binding from large dictionaries of TCR-peptide pairs.
-bioRxiv 650861 (2019). doi:10.1101/650861
+1. Springer I , Besser H , Tickotsky-Moskovitz N , et al. Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs[J]. Frontiers in Immunology, 2020, 11:1803.
