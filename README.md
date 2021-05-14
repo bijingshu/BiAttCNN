@@ -6,7 +6,6 @@ pytorch 1.0.0
 numpy 1.15.4
 scikit-learn 0.19.2
 ```
-- The code has been tested on Linux 3.10.0-957.27.2.el7.x86_64.
 - The code runs faster with GPU usage, but it should work also on CPU. It was developed on GPU
 (Nvidia Tesla V100 with CUDA 10.0).
 
@@ -21,7 +20,7 @@ For training the ERGO model, run:
 ```commandline
 python ERGO.py train model_type dataset sampling device 
 ```
-When: `model_type` is `ae` for the TCR-autoencoder based model, or `lstm` for the lstm based model.
+When: `model_type` is `lstm` for the lstm based model.
 `dataset` is `mcpas` for McPAS-TCR dataset, or `vdjdb` for VDJdb dataset.
 `sampling` can be `specific` for distinguishing different binders, `naive` for separating non-binders and binders,
 or `memory` for distinguishing binders and memory TCRs.
