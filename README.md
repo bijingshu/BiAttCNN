@@ -41,12 +41,6 @@ For binding prediction, run:
 ```commandline
 python ERGO.py predict model_type dataset sampling device --model_file=file.pt --test_data_file=file.csv
 ```
-When: `model_type` is `ae` for the TCR-autoencoder based model, or `lstm` for the lstm based model.
-`dataset` is `mcpas` for McPAS-TCR dataset, or `vdjdb` for VDJdb dataset.
-`sampling` can be `specific` for distinguishing different binders, `naive` for separating non-binders and binders,
-or `memory` for distinguishing binders and memory TCRs.
-`device` is a CUDA GPU device (e.g. 'cuda:0') or 'cpu' for CPU device.
-
 The argument `--model_file=file.pt` is the trained model.
 If you want to use our trained models, use `--model_file=auto`, and the code will choose the right trained
 model according to the arguments `model_type`, `dataset` and `sampling`.
