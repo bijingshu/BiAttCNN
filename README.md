@@ -1,7 +1,5 @@
 # An Attention based Bidirectional LSTM Method to Predict the Binding of TCR and Epitope
-# ERGO
-ERGO is a deep learing based model for predicting TCR-peptide binding.
-
+BiLSTM-Attention-CNN is a deep learing based model for predicting TCR-peptide binding.
 ### Python Dependencies and Requirements:
 ```text
 pytorch 1.0.0
